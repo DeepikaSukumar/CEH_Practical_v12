@@ -1,5 +1,3 @@
-Qns Types:
-
 ftp
 smb
 hydra
@@ -35,8 +33,6 @@ hydra -l jenny -P /usr/share/seclists/Passwords/Common-Credentials/best1050.txt 
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
 smbclient -L \\\\IP\\
-smbclient //<IP>/<shares>
-
 To connect with smb using username:
 smbclient -L ////IP// --user <name>
 
@@ -149,6 +145,10 @@ adb shell
 
 use "ls" to list the files and then use phonesploit
 
+find / -name README 2>/dev/null
+
+find /home/Scan -name elf 2>/dev/null
+
 
 By using Phonesploit:
 cd phonesploit
@@ -173,23 +173,9 @@ open file - check one by one entropy value and then check for the highest value
 
 and now calculate the hash value
 
------------------------------------------------------------------------------------------------------------------------------------------------
-
-No Need
-
-find / -name README 2>/dev/null
-
-adb connect 10.10.1.14:5555
-
-adb devices
-
-adb shell
-
-find /home/Scan -name elf 2>/dev/null
-
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
-SQL:
+SQL Injection:
 
 '+UNION+SELECT+username,+password+FROM+users--
 
