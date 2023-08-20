@@ -167,7 +167,7 @@ zip the folder yu have pulled
 
 On python server in cmd and transfer the folder to windows system
 
-open DIE
+open Detect It Easy(DIE):
 
 open file - check one by one entropy value and then check for the highest value
 
